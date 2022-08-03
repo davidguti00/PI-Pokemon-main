@@ -1,0 +1,25 @@
+.card-container
+{
+    padding: 1rem;
+    height: 100%;
+    cursor: pointer;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card-container a{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.NotFound{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+

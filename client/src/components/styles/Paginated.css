@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-conteiner{
+    border: none;
+    
+    padding: 0.6rem;
+    size-adjust: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginated{
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    color: #353535;
+    overflow-x:hidden; 
+    align-items: center;  
+    
+}
+
+.paginated li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.btnPagina{
+    color: rgb(255, 255, 255);
+    float: center;
+    padding: 8px 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #353535;
+}
+
+.btnPage{
+    color: #353535;
+    float: left;
+    padding: 8px 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid #353535;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btnPagina:hover{
+    background: #ffffff;
+    color: #353535;
+    border: 1px solid #353535;
+}
+
+

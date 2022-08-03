@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    --bg-color: rgba( 255,255,255,.75 );
+    font-family: Poppins, sans-serif;
+    background-image: linear-gradient( 0deg, var( --bg-color ), var( --bg-color ) ), url( '../src/components/styles/images/poke_fondo.jpg' );
+}
+
+.pokedex-app
+{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+/*
+    Pokemon type colors
+*/
+.type-normal { --color: #C2C2A1; }
+
+.type-flying { --color: #BAB0D5; }
+
+.type-ghost { --color: #735797; }
+
+.type-dark { --color: #333; }
+
+.type-steel { --color: #CCCCDE; }
+
+.type-ground { --color: #B1736C; }
+
+.type-poison { --color: #7C538C; }
+
+.type-grass { --color: #48D0B0; }
+
+.type-fire { --color: #FB6C6C; }
+
+.type-electric { --color: #FFD86F; }
+
+.type-fairy { --color: #f469a9; }
+
+.type-bug { --color: #C3CE75; }
+
+.type-fighting { --color: #d6b591; }
+
+.type-water { --color: #609FB5; }
+
+.type-psychic { --color: #9B7FA6; }
+
+.type-ice { --color: #7FCCEC; }
+
+.type-rock { --color: #a6aab6; }
+
+.type-dragon { --color: #F9BE00; }
+
+.type-unknown { --color: #482727;}
+
+/*
+    Background Pokeball decoration
+*/
+
+@keyframes fade-in
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fade-out
+{
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fill
+{
+    from { width: 0; }
+}
+

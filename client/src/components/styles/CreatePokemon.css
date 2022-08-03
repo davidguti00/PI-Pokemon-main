@@ -1,0 +1,134 @@
+.allForm{
+    background: transparent;
+}
+
+.allForm h2{
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 2rem;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    
+}
+
+.formulario__label{
+    display: block;
+    font-weight: 300;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario__grupo-input{
+    position: relative;
+    
+}
+.type-lateral{
+    display: flex;
+    margin-top: 10px;
+}
+.box-input-element{
+    display: flex;
+     width: 90%;
+     margin-top: 9px;
+     height: 45px;
+     padding: 0 40px 0 10px;
+     transition: .3s ease all;
+}
+
+
+.formulario__input{
+    width: 90%;
+    background: #fff;
+    border: 1px solid #353535;
+    border-radius: 10px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+
+}
+
+.formulario__input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163 ,0.4);
+
+}
+
+
+.formulario__inputD{
+    
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border: 8px solid transparent;
+    border-radius: 10px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+    height: 74px; 
+    width: 685px;
+}
+.formulario__inputD:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163 ,0.4);
+
+}
+
+.formulario__input-error{
+    font-size: 14px;
+    margin-bottom: 0;
+    font: bold;
+    color: #dc3545;
+
+}
+
+.formulario__input-error-activo{
+    display: block;
+}
+
+
+.formulario__validacion-estado{
+    position: absolute;
+    left: 100px;
+    bottom: 15px;
+    z-index: 100; 
+    font-size: 13px;
+    opacity: 0;
+}
+
+
+
+.butonChackRed{
+    max-width: 5%;
+    max-height: 7%;
+}
+.box-input-element button{
+
+    display: inline-flex;
+	align-items: center;
+    width: auto;
+    height: auto;
+    outline: none;
+    cursor: pointer;
+    background-color: #e05353;
+    padding: 4px;
+    margin-left: 5px;
+
+    transition: 0.5s;
+    font-size: 10px;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+	margin-right: 10px;
+	margin-bottom: 22px;
+	color: #fff;
+}

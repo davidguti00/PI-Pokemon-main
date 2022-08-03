@@ -1,0 +1,15 @@
+.filter-container {
+    position: relative;
+    top: 13px;
+  }
+
+  .filter-container select {
+    margin-right: 8px;
+    border-radius: 8px;
+    padding: 4px 8px;
+  }
+
+  .custom-select:hover{
+    background: #353535;
+    color: white;
+  }

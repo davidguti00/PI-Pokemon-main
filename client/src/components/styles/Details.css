@@ -1,0 +1,112 @@
+
+.btn-page {
+    color: rgb(255, 255, 255);
+    float: center;
+    padding: 8px 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #353535;
+}
+
+.pokemon-button {
+   margin-top: 20px; 
+}
+
+.pokemon-card {
+ width: 500px;
+ margin: 20px auto;
+}
+
+
+
+.header-card{
+    padding-top: 60px;
+    padding-left: 30px;  
+    padding-right: 30px;  
+    padding-bottom: 140px;
+    background-color: var( --color );
+    color: rgb(255, 255, 255); 
+    box-shadow: 0 0 20px 0 var( --color );
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+.pokemon-id-details {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch;
+    margin-bottom: 0.6rem;
+    justify-content: center;
+}
+
+.pokemon-id-details span{
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    background-color: #353535;
+    padding: .3rem .7rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.pokemon-types span.type
+{
+    border-radius: 13px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: .3rem .7rem;
+    text-align: left;
+    margin-bottom: .5rem;
+    margin-inline-end: 5px;
+    text-transform: capitalize;
+}
+
+.pokemon-types label{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.container_info .pokemon-image {
+    margin-top: 6px;
+    
+}
+
+.container_info .pokemon-image img {
+    width: 163px;
+    position: absolute;
+    top: -78px;
+    left: 169px;
+}
+
+.details-card {
+    position: relative;
+    margin-top: -37px;
+    padding-top: 120px;
+    padding-left: 30px;  
+    padding-right: 30px;  
+    padding-bottom: 60px;  
+    border-bottom-left-radius: 3rem;;
+    border-bottom-right-radius: 3rem;
+    box-shadow: 0 0 20px 0;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    background-color: rgb(255, 255, 255);
+}

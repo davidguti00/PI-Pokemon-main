@@ -1,0 +1,9 @@
+not_found{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+not_found h1{
+    margin-bottom: 30px;
+}

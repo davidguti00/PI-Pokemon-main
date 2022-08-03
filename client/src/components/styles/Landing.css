@@ -1,0 +1,34 @@
+.Landing{
+    background:url("../styles/images/gifPoke.gif"); 
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.title{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.btnGeneral{
+
+    color: #ffffff;
+    float: left;
+    padding: 8px 16px;
+    margin-left: 46%;
+    margin-right: 40%;
+    text-decoration: none;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #ce4040;
+    
+}
+
+.btnGeneral:hover{
+    background: #ffffff;
+    background-color: #ffffff;
+    color: #ce4040;
+    border: 3px solid #ce4040;
+}

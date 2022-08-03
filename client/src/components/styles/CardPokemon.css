@@ -1,0 +1,149 @@
+.card-container
+{
+    padding: 1rem;
+    height: 100%;
+    cursor: pointer;
+    
+    height: 300px;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+/* 
+.card {
+    border-radius: 8px;
+    color: #f1f1f1;
+    background-color: #171c24;;
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+} */
+
+.card
+{
+    background-color: var( --color );
+    color: rgb(255, 255, 255); 
+    box-shadow: 0 0 20px 0 var( --color );
+    border-radius: 3rem;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 3rem 1rem 2rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    will-change: box-shadow, transform;
+    transition: .3s all;
+}
+
+
+.card .card-title
+{
+    align-self: flex-start;
+}
+
+.card .pokemon-image
+{
+    align-self: flex-end;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end; 
+    max-width: 200%;
+}
+
+.card img
+{
+    max-width: 140%;
+    
+    filter: drop-shadow( 0 0 5px rgba( 0,0,0,.2 ) );
+}
+
+.card .card-title h2
+{
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.card .card-title .pokemon-types
+{
+    margin-top: 3px;
+}
+
+.card .card-title span.type
+{
+    border-radius: 13px;
+    display: table;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: .3rem .7rem;
+    text-align: left;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.pokemon-types p{
+    margin-top: 1px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: center;
+
+}
+
+
+.pokemon-id
+{
+    position: absolute;
+    top: 15px;
+    right: 38px;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and ( max-width: 500px )
+{
+    :not( .details-view ) .card
+    {
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 40vh;
+        padding: 2rem;
+    }
+
+    .card .card-title h2
+    {
+        font-size: 1rem;
+    }
+
+    .pokemon-id
+    {
+        font-size: 1rem;
+        top: 15px;
+        right: 18px;
+    }
+}
+
+@media screen and ( min-width: 1024px )
+{
+    .card:hover
+    {
+        transform: translateY( -5px );
+        box-shadow: 0 0 20px 5px var( --color );
+    }
+}
